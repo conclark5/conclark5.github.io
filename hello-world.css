@@ -1,7 +1,7 @@
 body {
-    background-color: lightskyblue;
+    background-color: palegoldenrod;
 }
-
-h1 {
-    color: green;
+h1,
+p {
+    color: rgb(82, 43, 43);
 }
