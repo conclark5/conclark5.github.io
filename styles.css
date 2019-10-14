@@ -1,0 +1,25 @@
+body {
+    background-color: palegoldenrod;
+}
+h1 {
+    color: rgb(82, 43, 43);
+    font-size: 25px;
+}
+h2 {
+    color: rgb(82, 43, 43);
+    font-size: 20px;
+}
+header p {
+    font-weight: bold;
+    color: rgb(82, 43, 43);
+    font-style: italic;
+}
+.red-heading {
+    color: red;
+}
+.blue-text {
+    color: blue;
+}
+#new-font {
+    font-family: fantasy, cursive, serif;
+}
