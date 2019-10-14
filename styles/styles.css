@@ -9,8 +9,10 @@ h2 {
     color: rgb(82, 43, 43);
     font-size: 20px;
 }
-p {
-    color: darkslategray;
+header p {
+    font-weight: bold;
+    color: rgb(82, 43, 43);
+    font-style: italic;
 }
 .red-heading {
     color: red;
