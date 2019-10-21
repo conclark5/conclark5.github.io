@@ -24,7 +24,7 @@ figure.left{
     float: left;
 }
 p.clear {
-    clear: both;
+    clear: inline-start;
 }
 footer {
     color: rgb(82, 43, 43);
@@ -41,4 +41,22 @@ footer {
 }
 #new-font {
     font-family: fantasy, cursive, serif;
+}
+nav {        
+    background-color: lightgray;
+    border: 1px white solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
 }
