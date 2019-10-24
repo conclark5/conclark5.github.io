@@ -23,3 +23,6 @@ footer {
     border: solid rgb(134, 73, 73) thick;
     margin: 20px;
 }
+footer ul {
+    list-style-type: none;
+}
