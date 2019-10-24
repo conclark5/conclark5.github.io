@@ -1,4 +1,25 @@
 body {
-    background-color: grey;
-    color: darkblue;
+    background-color: rgb(40, 75, 40);
+}
+header {
+    background-color: white;
+    border: solid rgb(134, 73, 73) thick;
+}
+nav {
+    background-color: white;
+    border: solid rgb(134, 73, 73) thick;
+    margin: 10px;
+}
+nav li {
+    display: inline;
+    padding: 8px;
+}
+main {
+    background-color: white;
+    border: solid rgb(134, 73, 73) thick;
+}
+footer {
+    background-color: white;
+    border: solid rgb(134, 73, 73) thick;
+    margin: 20px;
 }
