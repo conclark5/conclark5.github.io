@@ -26,3 +26,21 @@ footer {
 footer ul {
     list-style-type: none;
 }
+.image01 {
+    width: 400px;
+    height: 400px;
+    padding: 8px;
+}
+.image02 {
+    width: 400px;
+    height: 400px;
+    padding: 8px;
+    transform: rotate(90deg);
+    float: right;
+}
+.home-image {
+    padding: 8px;
+}
+figcaption {
+    float: center;
+}
