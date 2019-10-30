@@ -13,6 +13,7 @@ nav {
 nav li {
     display: inline;
     padding: 8px;
+    text-align: center;
 }
 main {
     background-color: white;
@@ -28,7 +29,7 @@ footer ul {
 }
 .image01 {
     width: 700px;
-    height: 400px;
+    height: 500px;
     padding: 2px;
     float: left;
 }
@@ -45,9 +46,13 @@ footer ul {
 .venice01 {
     text-align: right;
     clear: right;
+    font-size: 15px;
 }
 .venice02 {
     clear: both;
+    font-size: 15px;
+    display: inline-end;
+    padding: 8px;
 }
 .intro-format {
     padding: 8px;
@@ -61,4 +66,12 @@ footer ul {
 }
 .about01 {
     clear: none;
+}
+.venice-description {
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.venice-title {
+    text-align: center;
 }
