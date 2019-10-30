@@ -27,20 +27,38 @@ footer ul {
     list-style-type: none;
 }
 .image01 {
-    width: 400px;
+    width: 700px;
     height: 400px;
-    padding: 8px;
+    padding: 2px;
+    float: left;
 }
 .image02 {
-    width: 400px;
-    height: 400px;
-    padding: 8px;
+    width: 450px;
+    height: 450px;
+    padding: 2px;
     transform: rotate(90deg);
     float: right;
 }
 .home-image {
     padding: 8px;
 }
-figcaption {
-    float: center;
+.venice01 {
+    text-align: right;
+    clear: right;
+}
+.venice02 {
+    clear: both;
+}
+.intro-format {
+    padding: 8px;
+}
+.image-about {
+    transform: rotate(90deg);
+    height:400px;
+    width: 500px;
+    float: left;
+    clear: none;
+}
+.about01 {
+    clear: none;
 }
