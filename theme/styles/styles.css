@@ -13,6 +13,8 @@ nav {
 nav li {
     display: inline;
     padding: 8px;
+}
+.nav {
     text-align: center;
 }
 main {
@@ -27,51 +29,122 @@ footer {
 footer ul {
     list-style-type: none;
 }
-.image01 {
+
+
+.home-title01 {
+    text-align: center;
+}
+.home-title02 {
+    text-align: center;
+    font-size: 15px;
+}
+.intro-format {
+    padding: 8px;
+}
+.home01 {
+    padding: 8px;
+    float: right;
+}
+.home-caption01 {
+    clear: right;
+    float: inline-end;
+}
+
+
+.venice-body {
+    padding: 8px;
+    font-size: 20px;
+}
+.venice-title {
+    text-align: center;
+}
+.venice01 {
     width: 700px;
-    height: 500px;
+    height: 450px;
     padding: 2px;
     float: left;
 }
-.image02 {
+.venice02 {
     width: 450px;
     height: 450px;
     padding: 2px;
     transform: rotate(90deg);
     float: right;
 }
-.home-image {
-    padding: 8px;
-}
-.venice01 {
+.venice-caption01 {
     text-align: right;
     clear: right;
-    font-size: 15px;
 }
-.venice02 {
+.venice-caption02 {
     clear: both;
-    font-size: 15px;
     display: inline-end;
+    text-align: end;
     padding: 8px;
 }
-.intro-format {
-    padding: 8px;
+
+
+.rome-title {
+    text-align: center;
 }
-.image-about {
+.rome01 {
+    height: 400px;
+    width: 700px;
+}
+.rome02 {
+    height: 500px;
+    width: 500px;
+    transform: rotate(90deg);
+    float: right;
+}
+.rome-caption02 {
+    clear: both;
+    float: right;
+}
+.rome03 {
+    height: 500px;
+    width: 500px;
+    transform: rotate(90deg);
+}
+.rome04 {
+    height: 500px;
+    width: 500px;
+    transform: rotate(90deg);
+    float: right;
+}
+.rome-caption04 {
+    clear: both;
+}
+.rome-body {
+    padding: 8px;
+    font-size: 20px;
+}
+
+
+.capri-title {
+    text-align: center;
+}
+
+
+.terre-title {
+    text-align: center;
+}
+
+
+.bologna-title {
+    text-align: center;
+}
+
+
+.about-title {
+    text-align: center;
+}
+.about01 {
     transform: rotate(90deg);
     height:400px;
     width: 500px;
     float: left;
     clear: none;
 }
-.about01 {
+.about-caption01 {
     clear: none;
-}
-.venice-description {
-    padding: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-.venice-title {
-    text-align: center;
 }
