@@ -44,48 +44,56 @@ footer ul {
     text-align: center;
     font-size: 15px;
 }
-.intro-format {
+.home-body {
+    text-align: center;
+    font-size: 20px;
     padding: 8px;
 }
 .home01 {
-    padding: 8px;
-    float: right;
+    float: left;
+    width: 700px;
+    height: 500px;
 }
 .home-caption01 {
-    clear: right;
-    float: inline-end;
+    float: left;
+    clear: both;
+    padding: 8px;
+}
+.clear-home {
+    clear: both;
+    padding: 8px;
+    text-align: center;
 }
 
 
 .venice-body {
-    padding: 8px;
+    text-align: center;
     font-size: 20px;
+    padding: 8px;
 }
 .venice-title {
     text-align: center;
 }
 .venice01 {
-    width: 700px;
-    height: 450px;
-    padding: 2px;
+    width: 800px;
+    height: 500px;
     float: left;
+    padding: 8px;
 }
 .venice02 {
-    width: 450px;
-    height: 450px;
-    padding: 2px;
+    width: 600px;
+    height: 600px;
     transform: rotate(90deg);
-    float: right;
+    margin: auto;
+    display: block;
 }
 .venice-caption01 {
-    text-align: right;
-    clear: right;
+    float: left;
+    clear: both;
+    padding: 8px;
 }
 .venice-caption02 {
-    clear: both;
-    display: inline-end;
-    text-align: end;
-    padding: 8px;
+    text-align: center;
 }
 
 
@@ -93,50 +101,164 @@ footer ul {
     text-align: center;
 }
 .rome01 {
-    height: 400px;
-    width: 700px;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    display: block;
+}
+.rome-caption01 {
+    text-align: center;
 }
 .rome02 {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     transform: rotate(90deg);
-    float: right;
+    margin: auto;
+    display: block;
 }
 .rome-caption02 {
-    clear: both;
-    float: right;
+    text-align: center;
 }
 .rome03 {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     transform: rotate(90deg);
+    margin: auto;
+    display: block;
+}
+.rome-caption03 {
+    text-align: center;
 }
 .rome04 {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     transform: rotate(90deg);
-    float: right;
+    margin: auto;
+    display: block;
 }
 .rome-caption04 {
-    clear: both;
+    text-align: center;
 }
 .rome-body {
-    padding: 8px;
+    text-align: center;
     font-size: 20px;
+    padding: 8px;
 }
 
 
 .capri-title {
     text-align: center;
 }
+.capri01 {
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+.capri02 {
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+.capri03 {
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    display: block;
+}
+.capri-caption01 {
+    text-align: center;
+}
+.capri-caption02 {
+    text-align: center;
+}
+.capri-caption03 {
+    text-align: center;
+}
+.capri-body {
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+}
 
 
 .terre-title {
     text-align: center;
 }
+.terre-body {
+    text-align: center;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 8px;
+}
+.terre-body01 {
+    text-align: center;
+    font-size: 25px;
+}
+.terre01 {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    display: block;
+}
+.terre02 {
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+.terre03 {
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+.terre04 {
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+.terre-caption01 {
+    text-align: center;
+}
+.terre-caption02 {
+    text-align: center;
+}
+.terre-caption03 {
+    text-align: center;
+}
+.terre-caption04 {
+    text-align: center;
+}
 
 
 .bologna-title {
+    text-align: center;
+}
+.bologna-body {
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+}
+.bologna01 {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    display: block;
+    transform: rotate(90deg);
+}
+.bologna02 {
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+.bologna-caption01 {
+    text-align: center;
+}
+.bologna-caption02 {
     text-align: center;
 }
 
@@ -146,11 +268,23 @@ footer ul {
 }
 .about01 {
     transform: rotate(90deg);
-    height:400px;
+    height: 500px;
     width: 500px;
     float: left;
-    clear: none;
+    padding: 8px;
 }
 .about-caption01 {
-    clear: none;
+    clear: both;
+    float: left;
+    padding: 8px;
+}
+.about-body {
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+}
+.clear-about {
+    clear: both;
+    padding: 8px;
+    text-align: center;
 }
