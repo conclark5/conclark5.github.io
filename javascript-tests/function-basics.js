@@ -3,7 +3,9 @@ window.onload = () => {
     const simpleFunctionDisplay = document.getElementById('simpleFunctionDisplay');
     const functionCallsAction = document.getElementById('functionCallsAction');
 
-    functionCallsAction.onclick = simpleFunction;
+    functionCallsAction.onclick = function() {
+        simple();
+    }
 
     function simpleFunction() {
         console.log("functions should consist of statements designed to perform a single task.");
@@ -31,4 +33,5 @@ window.onload = () => {
     const returnValue = functionReturn(addResult);
 
     console.log(returnValue);
+    const data = nameDisplay.value;
 }
