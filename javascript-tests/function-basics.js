@@ -3,6 +3,14 @@ window.onload = () => {
     const simpleFunctionDisplay = document.getElementById('simpleFunctionDisplay');
     const functionCallsAction = document.getElementById('functionCallsAction');
 
+    const elfCode = {
+        appendToList: (list, value) => {
+            const li = document.createElement("li");
+            li.appendChild(document.createTextNode(value));
+            list.appendChild(li);
+        }
+    }
+    
     functionCallsAction.onclick = function() {
         simple();
     }
@@ -24,6 +32,11 @@ window.onload = () => {
         const addResult = a + b;
         console.log('Inside add', addResult)
         return addResult;
+    }
+
+    function simple() {
+        console.log('simple');
+        simpleFunctionDisplay.textContent = "simple";
     }
 
     functionParameters("Many functions take parameters.");
