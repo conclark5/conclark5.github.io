@@ -14,10 +14,11 @@ window.onload = () => {
     
     const arrays = {
         numbers: [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5],
-        languageNames: [JavaScript, HTML, CSS, Java, 'C#', Python, 'C/C++'],
+        languageNames: ['JavaScript', 'HTML', 'CSS', 'Java', 'C#', 'Python', 'C/C++'],
     };
 
     arrays.numbers.sort((a, b) => a - b);
+    arrays.languageNames.sort();
 
     numbersAction.onclick = () => {
         const numbersDisplay = document.getElementById('numbers-display');
