@@ -38,6 +38,5 @@ window.onload = () => {
 
     techLanguagePopularityAction.onclick = () => {
         const techLanguagePopularityDisplay = document.getElementById('tech-language-popularity-display');
-
     };
 }
