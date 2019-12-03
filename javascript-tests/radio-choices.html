@@ -6,9 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="../favicon.png">
     <script src="radio-choices.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
     <title>Radio Choices</title>
 </head>
 <body>
-    
+    <head>
+        <h1>Radio Choices</h1>
+        <h2>By Connor Clark</h2>
+    </head>
+
+    <main>
+        <section>
+            <fieldset> 
+                <legend>The User Selection</legend> 
+                <p><b>User choice</b>: <span id="user-choice">Unknown</span></p> 
+            </fieldset>
+        </section>
+        <section id="form-section">
+            <fieldset>
+                <legend>Our Form</legend>
+                <!-- OUR FORM GOES HERE -->
+            </fieldset>
+            <form id="sort-type" action="goThere">
+                <input type="radio" id="blue" name="sorter" value="Blue" checked>
+                <label for="blue">Blue</label>
+            
+                <input type="radio" id="green" name="sorter" value="Green">
+                <label for="green">Green</label>
+            
+                <div>
+                <input class="btn-padding" type="submit" value="Submit">
+                </div>
+            </form> 
+        </section>           
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+        <p>Copyright &copy; 2019 by Connor Clark</p>
+    </footer>
 </body>
 </html>

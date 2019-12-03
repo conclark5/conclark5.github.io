@@ -104,3 +104,11 @@ aside {
     padding: 8px;
     width: 33%;        
 }
+
+.blueBackground {
+    background-color: aqua;
+}
+
+.greenBackground {
+    background-color: green;
+}      
