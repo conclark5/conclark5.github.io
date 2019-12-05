@@ -8,7 +8,8 @@ window.onload = () => {
             elfCode.appendToList(myList, i);
             // END LOOP
     }
-}
+};
+
 const elfCode = {
     appendToList: (list, value) => {
         const li = document.createElement("li");

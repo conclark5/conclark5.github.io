@@ -5,11 +5,20 @@ window.onload = () => {
     myForm.addEventListener('submit', (event) => {
         event.preventDefault();
         const value = document.querySelector('input[name="sorter"]:checked').value;
-        if (value.toLowerCase() === 'green') {
+        if (value.toLowerCase() === 'blue') {
             setColor("blueBackground");
             showChoice(value);
-        } else {
+        } else if (value.toLowerCase() === 'green') {
             setColor("greenBackground");
+            showChoice(value);
+        } else if (value.toLowerCase() === 'yellow') {
+            setColor('yellowBackground');
+            showChoice(value);
+        } else if (value.toLowerCase() === 'purple') {
+            setColor('purpleBackground');
+            showChoice(value);
+        } else {
+            setColor('orangeBackground');
             showChoice(value);
         }
     });
@@ -26,5 +35,10 @@ window.onload = () => {
         element.classList.add(className);
     }
 
-    input[name="sorter"]; checked;
+    input[name="sorter"];checked
+};
+
+const showChoice = () => {
+    const showChoice = document.getElementById('user-choice');
+    showChoice.textContent = showChoice(showChoice.value);
 };

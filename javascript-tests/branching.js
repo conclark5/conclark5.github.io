@@ -1,4 +1,4 @@
-const height = 5;
+let height = 5;
     if (height >= 25) {
         console.log('We have a big one');
     }
