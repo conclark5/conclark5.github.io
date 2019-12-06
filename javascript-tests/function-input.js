@@ -36,7 +36,7 @@ window.onload = () => {
     };
     
     const areaOfTriangle = (base, height) => {
-        return base * height / 2;
+        return (base * height) / 2;
     };
 
     const areaOfCircleAction = document.getElementById('areaOfCircleAction');
@@ -48,7 +48,7 @@ window.onload = () => {
         areaOfCircleDisplay.textContent = areaOfCircle(areaOfCircleInput.value);
     };
     const areaOfCircle = (radius) => {
-        return Math.PI * radius * radius;
+        return Math.PI * (radius * radius);
     };
 };
 

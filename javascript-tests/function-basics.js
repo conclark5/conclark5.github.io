@@ -2,14 +2,6 @@ window.onload = () => {
     // All code goes in here.
     const simpleFunctionDisplay = document.getElementById('simpleFunctionDisplay');
     const functionCallsAction = document.getElementById('functionCallsAction');
-
-    const elfCode = {
-        appendToList: (list, value) => {
-            const li = document.createElement("li");
-            li.appendChild(document.createTextNode(value));
-            list.appendChild(li);
-        }
-    }
     
     functionCallsAction.onclick = function() {
         simple();
@@ -48,3 +40,11 @@ window.onload = () => {
     console.log(returnValue);
     const data = nameDisplay.value;
 }
+
+const elfCode = {
+    appendToList: (list, value) => {
+        const li = document.createElement("li");
+        li.appendChild(document.createTextNode(value));
+        list.appendChild(li);
+    }
+};
