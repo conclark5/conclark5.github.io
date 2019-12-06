@@ -4,7 +4,7 @@ window.onload = () => {
 
     myForm.addEventListener('submit', (event) => {
         event.preventDefault();
-        const value = document.querySelector('input[name="sorter"];checked').value;
+        const value = document.querySelector("input[name='sorter']:checked").value;
         if (value.toLowerCase() === 'blue') {
             setColor("blueBackground");
             showChoice(value);
@@ -35,7 +35,7 @@ window.onload = () => {
         element.classList.add(className);
     }
 
-    input[name="sorter"];checked
+    input[name='sorter'];checked
 };
 
 const showChoice = (value) => {
