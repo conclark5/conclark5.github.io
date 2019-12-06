@@ -64,6 +64,20 @@ footer ul {
     padding: 8px;
     text-align: center;
 }
+.blueStyle {
+    background-color: blue;
+    color: palevioletred;
+}
+
+.redStyle {
+    background-color: red;
+    color: darkblue;
+}
+.btn-padding {
+    padding: 25px;
+    border: 10px green double;
+    border-radius: 22px;
+}
 
 
 .venice-body {
