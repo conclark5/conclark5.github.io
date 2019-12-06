@@ -30,9 +30,10 @@ window.onload = () => {
 
     areaOfTriangleAction.onclick = () => {
         const areaOfTriangleInput = document.getElementById('areaOfTriangleInput');
+        const areaOfTriangleInput2 = document.getElementById('areaOfTriangleInput2');
         const areaOfTriangleDisplay = document.getElementById('areaOfTriangleDisplay');
 
-        areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value);
+        areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value, areaOfTriangleInput2.value);
     };
     
     const areaOfTriangle = (base, height) => {

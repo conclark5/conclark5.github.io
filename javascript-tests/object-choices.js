@@ -10,8 +10,8 @@ window.onload = () => {
         console.log('Dynamic Method');
     };
 
-    function functionObject() {
-        functionObject.prototype.sayName = function() {
+    function FunctionObject() {
+        FunctionObject.prototype.sayName = function() {
             console.log('Function Object');
         }
         function privateFunction() {
@@ -32,5 +32,7 @@ window.onload = () => {
     functionObject.sayName();
 
     const customClass = new CustomClass();
-    CustomClass.sayName();
+    customClass.sayName();
+
+
 };

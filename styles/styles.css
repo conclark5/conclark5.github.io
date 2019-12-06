@@ -124,3 +124,13 @@ aside {
 .orangeBackground {
     background-color: orange;
 }
+
+.blueStyle {
+    background-color: blue;
+    color: darkred;
+}
+
+.redStyle {
+    background-color: red;
+    color: darkblue;
+}

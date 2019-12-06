@@ -34,10 +34,9 @@ window.onload = () => {
         currentClass = className;
         element.classList.add(className);
     }
-
-    input[name='sorter'];checked
 };
 
 const showChoice = (value) => {
-    showChoice.textContent = value;
+   const userChoice = document.getElementById('user-choice');
+    userChoice.textContent = value;
 }
